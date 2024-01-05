@@ -1,0 +1,133 @@
+/*basic style*/
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    h1 {
+       margin-bottom: 50px;
+    text-align: center;
+    color: #000000;
+    font-family: one trick pony;
+    font-size: 50px;
+    font-weight: light;
+    }
+
+    section {
+        position: relative;
+        padding: 15px;
+        width: 90%;
+    }
+
+    p {
+        position: relative;
+        clear: right;
+    }
+
+    div {
+        position: relative;
+        background-color: #b5c7e3;
+        border: 1px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+
+    .sub1 {
+        float: right;
+        color: white;
+        width: 130px;
+        padding: 1px;
+        margin: -1px -1px 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-family: one trick pony;
+        font-size: 130%;
+        font-weight: light;
+        background-color: #ec5f6b;
+
+    }
+
+    .sub2 {
+        float: right;
+        color: black;
+        width: 130px;
+        padding: 1px;
+        margin: -1px -1px 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-family: one trick pony;
+        font-size: 130%;
+        font-weight: light;
+        background-color: #ffa366;
+
+    }
+
+    .sub3 {
+        color: black;
+        float: right;
+        width: 130px;
+        padding: 1px;
+         margin: -1px -1px 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-family: one trick pony;
+        font-size: 130%;
+        font-weight: light;
+        background-color: #ffd166;
+
+    }
+
+    .content {
+        padding: 5px;
+        border: none;
+        padding: 15px;
+        font-family: one trick pony;
+        font-size: 130%;
+        font-weight: light;
+        color: black;
+        margin: 3px ;
+        height: 150px;
+        overflow: auto;
+    }
+
+    .row {
+        width: 90%;
+    }
+
+    /*desktop version*/
+    @media (min-width: 992px) {
+        .column-lg-4 {
+            float: left;
+            width: 33.33%;
+        }
+    }
+
+    /*tablet version*/
+    @media (min-width: 768px) and (max-width: 991px) {
+        .colmn-md-6 {
+            float: left;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .colmn-md-12 {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    /*mobile version*/
+    @media (max-width: 767px) {
+        .colmn-sm-12 {
+            float: left;
+            width: 100%;
+        }
+    }
