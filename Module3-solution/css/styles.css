@@ -69,6 +69,13 @@ section {
   padding: 15px;
   width: 100%;
 }
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 .text-center{
   font-size: 50px;
 }
@@ -79,25 +86,20 @@ section {
 .navbar-brand{
 font-size: 30px;  
 }
-.box {
-  position: relative;
-  background-color: grey;
-  border: 1px solid black;
-  width: 100%;
+
+.row {
+  margin: 20px;
 }
-.content {
-  padding: 5px;
-  border: none;
-  padding: 15px;
-  font-family: one trick pony;
-  font-size: 130%;
-  font-weight: light;
+.content-box {
+  margin: 20px;
+  width: auto;
+  height: auto;
   color: black;
-  margin: 3px ;
-  height: 150px;
-  overflow: auto;
-  background-color: grey;
+  background-color: rgba(0,0,0,0.2);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 20px;
 }
+
 /*desktop version*/
 @media (min-width: 768px) {
 .column-md-4 {
